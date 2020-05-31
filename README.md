@@ -21,10 +21,11 @@ To initialise the project:
 
 To work with the command line:
 - `cd <project_dir>`
+- On a Windows command prompt use `gradlew` or `gradlew.bat` instead of `./gradlew`
 - `./gradlew build` - to download necessary dependencies, compile the project, and run the tests
 - `./gradlew compileJava` - if you only want to compile the classes
 - `./gradlew run` - will run the `MainClass` main class. You can change the main class by updating
-    the `javaMainClass` variable in the build.gradle file if you wish.
+    the `javaMainClass` variable in the `build.gradle` file if you wish.
 - `./gradlew test` - will run the tests, 
 
 Verify that you can run `MainClass` either using your IDE or a terminal, and check that its output
